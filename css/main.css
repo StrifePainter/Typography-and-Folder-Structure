@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'quicksand';
+  src: url('../fonts/Quicksand-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #mobile-outline {
    outline: 20px solid hsl(0, 0%, 20%);
    max-width: 412px;
@@ -27,6 +34,7 @@ p {
 }
 
 h2 {
+   font-family: "quicksand", Arial, Helvetica, sans-serif;
    font-size: 56px;
    letter-spacing: 3px;
    margin-bottom: 30px;
@@ -36,19 +44,19 @@ h2 {
    color: rgb(92, 46, 4);
    border: 5px solid  rgb(92, 46, 4);
    box-shadow: 0px 5px 0px #e6b42a;
-   text-decoration-style: w;
+   text-decoration-style: wavy;
 }
 
 h2 + p::first-letter {
   float: left;
-  font-family: Georgia;
+  font-family: "quicksand", Georgia;
+  font-weight: 1000;
   color:rgb(92, 46, 4);
   background-color: rgb(211, 130, 55);
   border-radius: 100px;
   font-size: 48px;
   margin-right: 10px;
-  margin-bottom: -1px;
-  padding: 10px 19px 10px 15px;
+  padding: 10px 19px 17px 15px;
   line-height: 1;
 }
 
