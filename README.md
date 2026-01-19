@@ -1,5 +1,5 @@
 # Typography and Folder Structure For Web Development
-Typography and Folder Structure Homework 1
+Typography and Folder Structure Homework 1 for Web Development class!
 
 ## Installation 💻
 None required, simply download .zip file and extract.
